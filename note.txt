@@ -1,0 +1,4 @@
+
+1、导入_libs下的opencv-320.jar到BuildPath。
+2、在BuildPath中展开 JRE System Library，点击Native library Location，右侧Edit,添加workspace下_libs目录（_libs目录下有opencv_java320.dll）。
+java 使用JNI调用dll文件。
